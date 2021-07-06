@@ -2,6 +2,25 @@ body{
   font-family: 'Poppins', sans-serif;
   margin: 0%;
 }
+.menu-bar{
+  background: orange;
+  text-align: center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menu-bar li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar-button{
+  text-decoration: none;
+  color: white;
+  
+}
 .orange-color{
   color: orange;
 }
@@ -67,11 +86,11 @@ p{
   padding-right:20px;
   border-radius: 20px;
 }
-footer{
-  background-color: black;
-  color: white;
-  padding:50px;
-}
 #footer-tag{
-font-size: 40px;
-}
+  font-size: 40px;
+  }
+  footer{
+    background-color: black;
+    color: white;
+      padding:50px;
+  }
